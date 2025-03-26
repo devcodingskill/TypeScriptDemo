@@ -1,18 +1,23 @@
-// const character = 'Tanaka';
-// console.log(character);
-// const inputs = document.querySelectorAll('input');
-// console.log(inputs);
+//#region:Lesson 1
+// Lesson 1
+//let character = 'Tanaka';
+//console.log(character);
+//const inputs = document.querySelectorAll('input');
+//console.log(inputs);
 // inputs.forEach(input => {
-//   console.log(input);   });
-/* Lesson 2 */
-// let character = 'Tanaka';
-// let age = 30;
-// let isBlackBelt = false;
-// const circ = (diameter: number) => {
-//   return diameter * Math.PI;
-// }
-// console.log(circ(40));
-/* Lesson 3 */
+//     console.log(input);
+// });
+//#endregion;
+//#region : Lesson 2 */
+var character = 'Tanaka';
+var age = 30;
+var isBlackBelt = false;
+var circ = function (diameter) {
+    return diameter * Math.PI;
+};
+console.log(circ(40));
+//#endregion
+//#region : Lesson 3 */
 // Arrays   
 var names = ['Tanaka', 'Suzuki', 'Yamada'];
 names.push('Hiroshi');
@@ -36,3 +41,4 @@ ninja = {
     belt: 'orange',
     age: 20
 };
+//#endregion
