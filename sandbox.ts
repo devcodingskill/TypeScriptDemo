@@ -1,5 +1,5 @@
 //#region:Lesson 1
-// Lesson 1
+
 //let character = 'Tanaka';
 //console.log(character);
 
@@ -10,6 +10,7 @@
 //     console.log(input);
 // });
 //#endregion;
+
 //#region : Lesson 2 */
 let character = 'Tanaka';
 let age = 30;
@@ -22,6 +23,7 @@ const circ = (diameter: number) => {
 console.log(circ(40));
 //#endregion
 //#region : Lesson 3 */
+
 
 
 // Arrays   
@@ -57,3 +59,34 @@ ninja = {
 }
 //#endregion
 
+//#region : Lesson 4 */
+// Explicit types       
+let character1: string='Tanaka';
+let age1: number;           
+let isLoggedIn: boolean;
+console.log(character1);
+// Arrays
+let ninjas: string[];
+
+
+// Union types
+let mixed1: (string | number)[] = [];
+mixed1.push('hello');
+mixed1.push(20);
+// mixed1.push(false); // Error
+
+let uid: string | number;
+
+// Objects
+let ninjaOne: object;
+ninjaOne = { name: 'Yoshi', age: 30 };
+// ninjaOne = 'hello'; // Error
+
+let ninjaTwo: {
+  name: string,
+  age: number,
+  beltColour: string
+};
+
+ninjaTwo = { name: 'Ken', age: 20, beltColour: 'black' };
+//#endregion

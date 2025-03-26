@@ -1,5 +1,4 @@
 //#region:Lesson 1
-// Lesson 1
 //let character = 'Tanaka';
 //console.log(character);
 //const inputs = document.querySelectorAll('input');
@@ -41,4 +40,25 @@ ninja = {
     belt: 'orange',
     age: 20
 };
+//#endregion
+//#region : Lesson 4 */
+// Explicit types       
+var character1 = 'Tanaka';
+var age1;
+var isLoggedIn;
+console.log(character1);
+// Arrays
+var ninjas;
+// Union types
+var mixed1 = [];
+mixed1.push('hello');
+mixed1.push(20);
+// mixed1.push(false); // Error
+var uid;
+// Objects
+var ninjaOne;
+ninjaOne = { name: 'Yoshi', age: 30 };
+// ninjaOne = 'hello'; // Error
+var ninjaTwo;
+ninjaTwo = { name: 'Ken', age: 20, beltColour: 'black' };
 //#endregion
