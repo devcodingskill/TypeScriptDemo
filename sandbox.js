@@ -54,6 +54,7 @@ var mixed1 = [];
 mixed1.push('hello');
 mixed1.push(20);
 // mixed1.push(false); // Error
+//no need to () for single type
 var uid;
 // Objects
 var ninjaOne;

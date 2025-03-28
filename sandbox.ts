@@ -65,6 +65,7 @@ let character1: string='Tanaka';
 let age1: number;           
 let isLoggedIn: boolean;
 console.log(character1);
+
 // Arrays
 let ninjas: string[];
 
@@ -73,7 +74,9 @@ let ninjas: string[];
 let mixed1: (string | number)[] = [];
 mixed1.push('hello');
 mixed1.push(20);
+
 // mixed1.push(false); // Error
+//no need to () for single type
 
 let uid: string | number;
 
@@ -90,3 +93,4 @@ let ninjaTwo: {
 
 ninjaTwo = { name: 'Ken', age: 20, beltColour: 'black' };
 //#endregion
+
