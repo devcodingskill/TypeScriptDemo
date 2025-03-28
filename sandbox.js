@@ -63,3 +63,21 @@ ninjaOne = { name: 'Yoshi', age: 30 };
 var ninjaTwo;
 ninjaTwo = { name: 'Ken', age: 20, beltColour: 'black' };
 //#endregion
+//#region : Lesson 5 */
+// Dynamic (any) types  not recommended
+// reverse typescript back to javascript
+var age2 = 25;
+age2 = true;
+console.log(age2);
+age2 = 'hello';
+console.log(age2);
+age2 = { name: 'Ken' };
+console.log(age2);
+var mixed2 = [];
+mixed2.push(5);
+mixed2.push('mario');
+mixed2.push(false);
+console.log(mixed2);
+var ninja3;
+ninja3 = { name: 'Yoshi', age: 25 };
+//#endregion
